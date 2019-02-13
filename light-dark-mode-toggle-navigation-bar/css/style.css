@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+body {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  transition: 0.5s all ease;
+}
+
+.theme-switch {
+  color: #FFF;
+  width: 70px;
+  height: 30px;
+  background: #C0C0C0;
+  border-radius: 50px;
+  position: relative;
+}
+.theme-switch .switch {
+  background: white;
+  width: 24px;
+  height: 24px;
+  background: #FFF;
+  border-radius: 100%;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  transition: 0.5s all ease;
+}
+
+.light-theme {
+  background: #FFF;
+}
+.light-theme .theme-switch {
+  background: #000;
+}
+.light-theme .theme-switch .switch {
+  transform: translateX(37px);
+}
+.light-theme a {
+  color: #000;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+ul a {
+  margin: 10px;
+  position: relative;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+ul a:before {
+  position: absolute;
+  bottom: -2px;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: #C0C0C0;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+ul a:hover:before {
+  opacity: 1;
+  transition: 0.5s transform ease, 0.8s opacity ease;
+  transform: translateX(0);
+}
+ul .active {
+  color: #C0C0C0;
+}
+ul .active:hover:before {
+  opacity: 0;
+}
