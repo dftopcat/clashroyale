@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Game of Trains (CSS/JS, no tricks)</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class='wrapper'>
+  <div class='sky'>
+    <div class='sun'></div>
+    <div class='clouds'>
+      <div class='cloud'>
+        <div class='big_bubble'></div>
+        <div class='base'></div>
+        <div class='small_bubble'></div>
+      </div>
+      <div class='cloud'>
+        <div class='big_bubble'></div>
+        <div class='base'></div>
+        <div class='small_bubble'></div>
+      </div>
+      <div class='cloud'>
+        <div class='big_bubble'></div>
+        <div class='base'></div>
+        <div class='small_bubble'></div>
+      </div>
+      <div class='cloud'>
+        <div class='big_bubble'></div>
+        <div class='base'></div>
+        <div class='small_bubble'></div>
+      </div>
+      <div class='cloud'>
+        <div class='big_bubble'></div>
+        <div class='base'></div>
+        <div class='small_bubble'></div>
+      </div>
+      <div class='cloud'>
+        <div class='big_bubble'></div>
+        <div class='base'></div>
+        <div class='small_bubble'></div>
+      </div>
+      <div class='cloud'>
+        <div class='big_bubble'></div>
+        <div class='base'></div>
+        <div class='small_bubble'></div>
+      </div>
+      <div class='cloud'>
+        <div class='big_bubble'></div>
+        <div class='base'></div>
+        <div class='small_bubble'></div>
+      </div>
+      <div class='cloud'>
+        <div class='big_bubble'></div>
+        <div class='base'></div>
+        <div class='small_bubble'></div>
+      </div>
+    </div>
+    <div class='mountains'>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+      <div class='mountain'></div>
+    </div>
+    <div class='info'>
+      <button class='js-play'>PLAY</button>
+      <button class='js-instructions'>INSTRUCTIONS</button>
+      <button class='js-tutorial'>TUTORIAL</button>
+    </div>
+  </div>
+  <div class='land js-land'>
+    <div class='game_info'>
+      <span>Score:</span>
+      <span class='score js-score'>0000</span>
+      <span class='fraction'>
+        <span class='right js-correct'>0</span>
+        <span>/</span>
+        <span class='total js-total'>0</span>
+      </span>
+    </div>
+    <div class='trees'>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+        <div class='branch'></div>
+        <div class='branch'></div>
+        <div class='trunk'></div>
+        <div class='shadow'></div>
+      </div>
+      <div class='tree'>
+          <div class='branch'></div>
+          <div class='branch'></div>
+          <div class='trunk'></div>
+          <div class='shadow'></div>
+        </div>
+        <div class='tree'>
+          <div class='branch'></div>
+          <div class='branch'></div>
+          <div class='trunk'></div>
+          <div class='shadow'></div>
+        </div>
+        <div class='tree'>
+          <div class='branch'></div>
+          <div class='branch'></div>
+          <div class='trunk'></div>
+          <div class='shadow'></div>
+        </div>
+        <div class='tree'>
+          <div class='branch'></div>
+          <div class='branch'></div>
+          <div class='trunk'></div>
+          <div class='shadow'></div>
+        </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

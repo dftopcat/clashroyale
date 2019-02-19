@@ -1,0 +1,31 @@
+%div.wrapper
+  %div.sky
+    %div.sun
+    %div.clouds
+      - (1..9).each do
+        %div.cloud
+          %div.big_bubble
+          %div.base
+          %div.small_bubble
+    %div.mountains
+      - (1..11).each do
+        %div.mountain
+    %div.info
+      %button.js-play PLAY        
+      %button.js-instructions INSTRUCTIONS
+      %button.js-tutorial TUTORIAL    
+  %div.land.js-land
+    %div.game_info
+      %span Score:
+      %span.score.js-score 0000
+      %span.fraction
+        %span.right.js-correct 0
+        %span /
+        %span.total.js-total 0
+    %div.trees
+      - (1..11).each do
+        %div.tree
+          %div.branch
+          %div.branch
+          %div.trunk
+          %div.shadow
