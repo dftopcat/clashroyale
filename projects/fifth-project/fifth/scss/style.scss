@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600);
 
-$timer: 10s;
+$timer: 10.2s;
 
 $white: rgb(255, 255, 255);
 $black: darken($white, 100%);
@@ -301,7 +301,7 @@ html, body {
 
 .stage {
   animation: stage_move (#{$timer * 2}) linear forwards;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/44572/map.jpg);
+  background-color: powderblue;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100%;
@@ -420,7 +420,7 @@ input[type="radio"] {
 // Ariplane
 // ================================================================================
 .airplane {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/44572/airplane-04.svg);
+  background-color: powderblue;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: 0 0;
