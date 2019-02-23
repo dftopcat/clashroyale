@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <meta charset="UTF-8">
-  <title>image gallery</title>
-  
-  
-  
-      <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      @import url(https://fonts.googleapis.com/css?family=Anaheim);
+@import url(https://fonts.googleapis.com/css?family=Anaheim);
 
 *{
   margin: 0;
@@ -94,38 +83,3 @@ img:hover{
 		transform: rotateY(360deg);
 	}
 }
-    </style>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
-</head>
-
-<body>
-
-  <h1>Image Gallery</h1>
-  <div class="container">
-		<div id="carousel">
-
-			
-			  
-			<figure><img src="http://drive.google.com/uc?export=view&id=1MrKg7aQwzPl0hbHlvdXc5QooYL1KXphx" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/2" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/3" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/4" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/5" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/6" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/7" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/8" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/people/9" alt=""></figure>
-		</div>
-	</div>
-  
-  
-    <script  src="js/index.js"></script>
-
-
-
-
-</body>
-
-</html>
