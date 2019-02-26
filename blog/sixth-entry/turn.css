@@ -1,0 +1,9 @@
+div {
+    width: 250px;
+    height: 78px;
+  }
+  
+  #myDiv {
+    -webkit-transform: rotateZ(90deg); /* Safari */
+    transform: rotateZ(90deg); /* Standard syntax */
+  }
