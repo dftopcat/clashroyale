@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
+
+nav{
+  background-color: blue;
+}
+.nav-bar{
+  list-style-type: none;
+}
+.nav-item{
+  display: inline-block;
+}
+.nav-item a{
+  display: block;
+  text-decoration: none;
+  padding: 0.7em 2.1em;
+  color: white; 
+}
+.nav-item a:hover{
+  background-color: powderblue;
+}
 
 
 .text-focus-in {
